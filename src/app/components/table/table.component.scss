@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.grades-table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.grades-table th, .grades-table td {
+    border: 1px solid #1784c7;
+    padding: 10px;
+}
+
+.grades-table th {
+    background-color: #3e454c;
+    color: #ff7d61;
+    font-weight: bold;
+}
+
+.grades-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.grades-table tr:hover {
+    background-color: #1784c7;
+}

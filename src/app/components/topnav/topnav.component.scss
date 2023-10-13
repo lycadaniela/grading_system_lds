@@ -1,0 +1,20 @@
+.topnav {
+  overflow: hidden;
+  background-color: #3e454c;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  margin-left: 200px;
+  height: 75px;
+}
+
+.topnav a {
+  float: right;
+  display: block;
+  color: #ffffff;
+  text-align: right;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  margin-top: 7px;
+}
