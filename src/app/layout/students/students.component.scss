@@ -4,3 +4,9 @@ p {
     margin-bottom: 50px;
     color: #1784c7;
 }
+
+.students-card {
+    display: flex;
+    flex-wrap: row;
+    flex-wrap: wrap;
+  }

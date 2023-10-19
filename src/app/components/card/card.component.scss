@@ -1,6 +1,6 @@
 .card {
-  width: 300px;
-  padding: 20px;
+  //width: 300px;
+  //padding: 20px;
   margin: 20px;
   border: 1px solid #1784c7;
   border-radius: 5px;
@@ -9,17 +9,16 @@
   color: #27282a;
 }
 
-.card h4 {
-  font-size: 24px;
+.card h2 {
   margin: 0;
   padding: 0;
   color: #ff7d61;
 }
 
-.card p {
-  font-size: 16px;
-  margin: 10px 0;
-}
+//.card p {
+  //font-size: 16px;
+  //margin: 10px 0;
+//}
 
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);

@@ -1,1 +1,9 @@
 <p>TEACHERS</p>
+
+<div class="dash-card">
+    <app-card *ngFor="let item of teachersCardData"
+        title="{{item.title}}"
+        value="{{item.value}}"
+        content="{{item.content}}"
+    ></app-card>
+</div>

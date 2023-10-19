@@ -1,6 +1,14 @@
 <p>DASHBOARD</p>
 
 <div class="dash-card">
+    <app-card *ngFor="let item of cardData"
+        title="{{item.title}}"
+        content="{{item.content}}"
+    ></app-card>
+</div>
+
+
+<!--<div class="dash-card">
     <app-card 
         name = "Harry"
         position = "Speaker of the House"
@@ -17,7 +25,6 @@
         company = "Republic of the Philippines">
     </app-card>   
 </div>
-
 
 <br><br>
 
@@ -25,6 +32,6 @@
     <h2>Subjects</h2>
     <br>
     <app-table></app-table>
-</div>
+</div>-->
 
      

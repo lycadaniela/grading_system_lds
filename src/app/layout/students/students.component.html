@@ -1,1 +1,8 @@
 <p>STUDENTS</p>
+
+<div class="students-card">
+    <app-card *ngFor="let item of studentsCardData"
+        title="{{item.title}}"
+        value="{{item.value}}"
+    ></app-card>
+</div>
